@@ -7,11 +7,12 @@ tags:
 
 # Agenda
 
-- Web-Applications
-  - Theory:  
-    What is an SPA?
-    What will be generated to run?
-  - Building Systems
+- Prerequisites
+  - Web-Applications
+    - Theory:  
+      What is an SPA?
+      What will be generated to run?
+    - Building Systems
 
 - Angular
   - Basic Concept

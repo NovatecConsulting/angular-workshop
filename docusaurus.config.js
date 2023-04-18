@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Angular Workshop',
+  tagline: 'Der Weg in die digitale Zukunft',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://novatecconsulting.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/angular-workshop/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NovatecConsulting', // Usually your GitHub org/user name.
+  projectName: 'angular-workshop', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','de'],
   },
 
   presets: [
@@ -64,10 +64,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Angular Workshop',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Novatec Logo',
           src: 'img/logo.svg',
+          srcDark:  'img/logo_w.svg'
         },
         items: [
           {
@@ -78,38 +79,53 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/NovatecConsulting/angular-workshop',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            type: 'docsVersionDropdown',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Novatec Logo',
+          src: 'img/logo_w.svg',
+          href: 'https://novatec-gmbh.de',
+          width: 160,
+        },
         links: [
           {
-            title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+                html: `
+<div class="address">Novatec Consulting GmbH<br>Bertha-Benz-Platz 1<br>D-70771 Leinfelden-Echterdingen</div>
+<div class="contact"><a class="link -text -can-hover" href="tel:+49 711 22040-700">+49 711 22040-700</a></div>
+<div class="mail"><a class="link -text -can-hover" href="mailto:info@novatec-gmbh.de">info@novatec-gmbh.de</a></div>`
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Website',
+                href: 'https://www.novatec-gmbh.de',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/novatecgmbh',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/NovatecConsulting',
               },
             ],
           },
@@ -120,14 +136,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Angular Workshop, Novatec Consulting GmbH.`,
       },
       prism: {
         theme: lightCodeTheme,

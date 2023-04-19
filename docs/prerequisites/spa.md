@@ -9,6 +9,8 @@ tags:
 
 # Single Page Application (SPA)
 
+[//]: # (TODO: add content)
+
 ## What is an SPA?
 
 ## What will be generated to run?

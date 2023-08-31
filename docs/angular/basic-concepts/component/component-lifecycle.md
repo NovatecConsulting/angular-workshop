@@ -5,11 +5,11 @@ tags:
   - component
   - lifecycle
 ---
-# Component Lifecycle
+# Lifecycle
 
 The component has multiple lifecycle hooks from initialization when it gets mounted inside the app to its destruction when it gets unmounted. Lifecycle hooks are implemented as class methods inside the `.component.ts` file.
 
-The most common lifecycle events events of a component are:
+The most common lifecycle events of a component are:
 
 - `constructor`: called before any lifecycle hook. Usually only used for dependency injection.
 - `ngOnChanges`: called after every change to input properties and before processing content or child views

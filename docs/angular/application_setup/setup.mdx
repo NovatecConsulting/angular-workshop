@@ -1,0 +1,70 @@
+---
+sidebar_position: 3
+id: setup
+tags:
+  - app
+  - bootstrap
+---
+
+# Setup
+
+Since the introduction of standalone components, the setup of an angular application has changed significantly.
+
+## Minimal Setup
+
+```html title="index.html"
+<html>
+  <head>
+    <title>My app</title>
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
+```
+
+```typescript title="main.ts"
+import 'zone.js/dist/zone';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { bootstrapApplication } from '@angular/platform-browser';
+
+@Component({
+  selector: 'my-app',
+  standalone: true,
+  imports: [CommonModule],
+  template: `
+    <h1>Hello from {{ name }}!</h1>
+    <a target="_blank" href="https://angular.io/start">
+      Learn more about Angular
+    </a>
+  `,
+})
+export class App {
+  name = 'Angular';
+}
+
+bootstrapApplication(App);
+```
+
+## Where to add assets for styles or additional scrips?
+
+After adding assets to the `src/assets` folder, you can reference them in your application.
+For example, to link a stylesheet in your Angular application, you would typically include it in the styles array within the angular.json file:
+
+```json5 title="angular.json"
+{
+//  ...
+    "styles": [
+      "src/assets/styles.scss"
+      // Add other stylesheets here
+    ],
+//...
+}
+```
+
+---
+
+## Sources
+
+1. https://angular.io/guide/component-overview

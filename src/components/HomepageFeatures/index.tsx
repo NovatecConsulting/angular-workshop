@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Deep dive with experts',
+    Svg: require('@site/static/img/undraw_teaching_re_g7e3.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Unlock the full potential of <b>Angular</b> with our immersive workshop!
+          Dive deep into cutting-edge techniques and elevate your web development skills to create seamless, dynamic applications.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Hands on',
+    Svg: require('@site/static/img/undraw_programming_re_kg9v.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Experience a tailored Angular workshop that places a sharp focus on individual exercises.
+          Hone your skills through hands-on activities designed to empower you with the expertise needed to build powerful, interactive web applications.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by inspiration',
+    Svg: require('@site/static/img/undraw_team_collaboration_re_ow29.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Join our collaborative Angular workshop, where you'll not only engage in hands-on exercises but also have ample opportunities to ask questions.
+          Elevate your skills with a supportive learning environment, ensuring you leave with a deep understanding of Angular development.
       </>
     ),
   },

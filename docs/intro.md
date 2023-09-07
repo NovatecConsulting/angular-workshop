@@ -8,40 +8,30 @@ Let's discover **Angular in depth**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+For the full Setup Guide see [Setup Chapter](/docs/setup).
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Cloud IDE
 
-### What you'll need
+Since most exercises can be solved using the latest version of Chrome / Edge / Safari, it is not mandatory to have any local IDE.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+> Ensure you can access [StackBlitz](https://stackblitz.com) and you can see an example project after clicking the
+> Angular icon.
 
-## Generate a new site
+![Stackblitz demo](/img/docs/stackblitz-demo.png)
 
-Generate a new Docusaurus site using the **classic template**.
+### Local Development
 
-The classic template will automatically be added to your project after you run the command:
+Get started by installing [Node.js](https://nodejs.org/en/download/). This can be done by utilizing Node Version
+Manager (`nvm` see [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> HINT: The all tasks where tested for `⬢ v18.16.0`
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+The installation process can defer depending on your OS.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+To verify the installation run `node --version`.
 
 ```bash
-cd my-website
-npm run start
+# angular-workshop is 📦 v0.1.0 via ⬢ v18.16.0 
+node --version
+# RESPONSE: v18.16.0
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

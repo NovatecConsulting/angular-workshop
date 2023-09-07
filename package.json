@@ -2,7 +2,7 @@
   "name": "angular-workshop",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@8.7.0",
+  "packageManager": "pnpm@8.7.4",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -30,6 +30,8 @@
     "@docusaurus/module-type-aliases": "2.4.1",
     "@docusaurus/types": "^2.4.1",
     "@tsconfig/docusaurus": "^2.0.0",
+    "@types/react": "^17.0.65",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"

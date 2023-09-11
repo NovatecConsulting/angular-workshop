@@ -7,31 +7,11 @@ tags:
 
 # Overview
 
-Here are three tasks for developers at each level of proficiency in Angular:
+Here are multiple tasks for developers at each level of proficiency in Angular:
+
+https://stackblitz.com/@Sebastian-G/collections/angular-workshop
 
 ## Basic
-
-A basic Angular developer is familiar with creating simple components, setting up basic routing, and handling forms.
-They can build static web pages and perform basic data binding, but may not be experienced in more advanced features
-like services or state management.
-
-### Atomic Component Creation:
-
-> Create a simple Angular component, such as a user profile card, with hardcoded data and display it in the template.
-
-#### Make it reusable
-
-> Add the possibility to pass the `user` object as `@Input`.
-
-### Routing Setup
-
-> Set up basic routing in an Angular application with at least two routes.
-> Create navigation links and ensure the corresponding components load correctly.
-
-### Form Handling
-
-> Create a simple form with input fields and a submit button.
-> Implement basic form validation using Angular's built-in directives.
 
 ## Intermediate
 

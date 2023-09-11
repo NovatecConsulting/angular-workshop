@@ -35,6 +35,10 @@ const config = {
     ],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       "classic",
@@ -149,6 +153,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  themes: ["@docusaurus/theme-mermaid"],
 };
 
 module.exports = config;

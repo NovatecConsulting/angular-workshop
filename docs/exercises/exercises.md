@@ -13,6 +13,7 @@ https://stackblitz.com/@Sebastian-G/collections/angular-workshop
 
 ## Basic
 
+
 ## Intermediate
 
 An intermediate Angular developer is proficient in creating services, making HTTP requests, and managing component

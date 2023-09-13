@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkangular_workshop=self.webpackChunkangular_workshop||[]).push([[7927],{4868:a=>{a.exports=JSON.parse('{"label":"angular","permalink":"/angular-workshop/blog/tags/angular","allTagsPath":"/angular-workshop/blog/tags","count":1}')}}]);

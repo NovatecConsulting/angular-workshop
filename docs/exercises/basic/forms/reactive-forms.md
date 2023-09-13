@@ -7,6 +7,7 @@ tags:
   - reactive
   - form
   - validation
+description: "Create a simple form with input fields and a submit button (with validation)."
 ---
 
 # Form handling

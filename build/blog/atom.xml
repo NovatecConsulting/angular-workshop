@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://novatecconsulting.github.io/angular-workshop/blog</id>
+    <title>Angular Workshop Blog</title>
+    <updated>2023-09-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://novatecconsulting.github.io/angular-workshop/blog"/>
+    <subtitle>Angular Workshop Blog</subtitle>
+    <icon>https://novatecconsulting.github.io/angular-workshop/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://novatecconsulting.github.io/angular-workshop/blog/first-blog-post</id>
+        <link href="https://novatecconsulting.github.io/angular-workshop/blog/first-blog-post"/>
+        <updated>2023-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Sebastian Graef</name>
+            <uri>https://www.linkedin.com/in/sebastian-graef/</uri>
+        </author>
+        <category label="angular" term="angular"/>
+        <category label="workshop" term="workshop"/>
+    </entry>
+</feed>

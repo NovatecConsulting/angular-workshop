@@ -14,7 +14,7 @@ tags:
 :::info Exercise
 
 Create a simple Angular component, such as a login page, with hardcoded data and display it in the template.
-Make it accessible using the `/login` route.
+Make it accessible using the `/login` route and ensure the corresponding components load correctly.
 
 :::
 

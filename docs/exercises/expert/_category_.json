@@ -1,0 +1,8 @@
+{
+  "label": "Expert Level",
+  "position": 400,
+  "link": {
+    "type": "generated-index",
+    "description": "An Angular expert developer has expertise in ..."
+  }
+}

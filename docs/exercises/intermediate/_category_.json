@@ -1,0 +1,8 @@
+{
+  "label": "Intermediate Level",
+  "position": 200,
+  "link": {
+    "type": "generated-index",
+    "description": "An intermediate Angular developer is proficient in creating services, making HTTP requests, and managing component state. They are comfortable with concepts like dependency injection, observables, and routing. They can build interactive web applications and handle more complex data scenarios."
+  }
+}

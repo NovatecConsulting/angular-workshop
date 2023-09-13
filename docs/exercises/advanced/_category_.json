@@ -1,0 +1,8 @@
+{
+  "label": "Advanced Level",
+  "position": 300,
+  "link": {
+    "type": "generated-index",
+    "description": "An advanced Angular developer has expertise in advanced features like lazy loading modules, implementing complex routing with guards, and employing state management libraries like NgRx. They are skilled in optimizing performance and architecting large-scale applications. They can tackle complex application requirements with efficiency and effectiveness."
+  }
+}

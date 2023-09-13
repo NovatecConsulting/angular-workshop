@@ -21,12 +21,12 @@ when Node.JS was released.
 browser, it provides built-in libraries for network and filesystem access. Additionally, it is platform-independent and
 can be run on various platforms like Mac, Windows, Linux. Node comes with the Node Package Manager (NPM).
 
-You can go to [npmjs.com](npmjs.com) and search for packages which you may want to integrate into your project.
+You can go to [npmjs.com](https://npmjs.com) and search for packages which you may want to integrate into your project.
 Angular is also available as an NPM package.
 
 ### Cheat Sheet
 
-Full list of commands: https://docs.npmjs.com/cli/v8/commands?v=true
+Full list of commands: [docs.npmjs.com/cli/v8/commands](https://docs.npmjs.com/cli/v8/commands?v=true)
 
 ```bash
 # Install all dependencies of a project
@@ -98,7 +98,7 @@ same packages over and over again.
 npm install -g pnpm
 ```
 
-Link to commands: https://pnpm.io/pnpm-cli
+Link to commands: [pnpm.io/pnpm-cli](https://pnpm.io/pnpm-cli)
 
 ### Yarn
 
@@ -109,4 +109,4 @@ Whether you work on one-shot projects or large monorepo, as a hobbyist or an ent
 npm i -g corepack
 ```
 
-Link to commands: https://yarnpkg.com/getting-started/usage
+Link to commands: [yarnpkg.com/getting-started](https://yarnpkg.com/getting-started/usage)

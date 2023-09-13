@@ -9,6 +9,7 @@ tags:
   - unit
   - jest
   - signal
+description: "Add props and events to an existing component."
 ---
 
 # Increase Reusability

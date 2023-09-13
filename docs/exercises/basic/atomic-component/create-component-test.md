@@ -9,6 +9,7 @@ tags:
   - unit
   - jest
   - signal
+description: "Create a base unit test for the simple Angular component."
 ---
 
 # Testing

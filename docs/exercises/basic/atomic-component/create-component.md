@@ -6,6 +6,7 @@ tags:
   - basic
   - component
   - signal
+description: "Create a simple Angular component with hardcoded data."
 ---
 
 # Creation

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkangular_workshop=self.webpackChunkangular_workshop||[]).push([[4138],{8757:o=>{o.exports=JSON.parse('{"permalink":"/angular-workshop/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

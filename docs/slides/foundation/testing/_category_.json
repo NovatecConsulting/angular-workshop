@@ -1,0 +1,8 @@
+{
+  "label": "Testing",
+  "position": 300,
+  "link": {
+    "type": "generated-index",
+    "description": "How to test Angular applications?"
+  }
+}

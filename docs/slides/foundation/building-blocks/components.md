@@ -34,7 +34,7 @@ graph TD
 
 They are defined using the `@Component` decorator.
 
-```typescript
+```typescript title="your.component.ts"
 @Component({
     selector: 'app-your-comp',
     standalone: true,

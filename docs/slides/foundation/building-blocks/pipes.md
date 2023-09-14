@@ -26,3 +26,6 @@ Inside the HTML-Template of a component:
 ```html
 <span>{{ currentUser | fullName }}</span>
 ```
+
+### Related Topics:
+- https://angular.io/guide/pipes-overview

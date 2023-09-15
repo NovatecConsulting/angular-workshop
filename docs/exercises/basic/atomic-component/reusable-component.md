@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-id: reuse_component
 tags:
   - exercise
   - basic

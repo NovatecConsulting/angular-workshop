@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: content
 tags:
   - agenda
 description: "All contents of this slide show"

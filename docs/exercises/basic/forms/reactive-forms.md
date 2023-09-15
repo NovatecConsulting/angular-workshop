@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: reactive_forms
 tags:
   - exercise
   - basic

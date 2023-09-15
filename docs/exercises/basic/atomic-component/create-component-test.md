@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-id: basic_component_test
 tags:
   - exercise
   - basic

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 5
-id: component_lifecycle
 tags:
   - component
   - lifecycle

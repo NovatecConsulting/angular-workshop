@@ -1,6 +1,6 @@
 {
   "label": "Prerequisites",
-  "position": 2,
+  "position": 900,
   "link": {
     "type": "generated-index",
     "description": "Basic knowledge not directly related to Angular, but a good foundation for building products with Angular."

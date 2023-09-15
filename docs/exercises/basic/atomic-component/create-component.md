@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: create_component
 tags:
   - exercise
   - basic
@@ -47,6 +46,9 @@ graph TD
 ### Lets go
 [![Fork base from StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/nt-angular-workshop-base)
 
+[![TailwindCSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com)   
+When it comes to styling, you can use [TailwindCSS](https://tailwindcss.com).
+Tailwind is already contained within the StackBlitz.
 
 ### Solution
 

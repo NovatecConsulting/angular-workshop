@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: setup_route
 tags:
   - exercise
   - basic

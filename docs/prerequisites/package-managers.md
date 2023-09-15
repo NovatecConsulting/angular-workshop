@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: package-managers
 tags:
   - foundations
   - prerequisites

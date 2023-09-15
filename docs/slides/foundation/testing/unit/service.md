@@ -1,6 +1,5 @@
 ---
 sidebar_position: 500
-id: services
 tags:
   - service
   - REST

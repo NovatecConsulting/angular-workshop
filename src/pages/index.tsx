@@ -18,7 +18,7 @@ function HomepageHeader() {
                     <Link
                         className="button button--secondary button--lg"
                         to="/docs/intro">
-                        Angular Bootcamp - 8h ⏱️
+                        Angular Bootcamp &gt; 8h ⏱️
                     </Link>
                 </div>
             </div>

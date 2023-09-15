@@ -1,6 +1,5 @@
 ---
 sidebar_position: 300
-id: services
 tags:
   - service
   - provider

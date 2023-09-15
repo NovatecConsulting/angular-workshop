@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-id: setup
 tags:
   - workspace
   - getting started

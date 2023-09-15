@@ -1,6 +1,5 @@
 ---
 sidebar_position: 200
-id: components
 tags:
   - component
 ---
@@ -46,3 +45,13 @@ They are defined using the `@Component` decorator.
 export class YourComponent {
 }
 ```
+
+To bind the component you can call the `selector` within the HTML template.
+
+```html title="parent.component.html"
+<app-your-comp></app-your-comp>
+<!-- OR shorted -->
+<app-your-comp />
+```
+
+Components can also be embedded by the router config (see [Route docs](https://angular.io/api/router/Route)).

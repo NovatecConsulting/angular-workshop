@@ -1,6 +1,5 @@
 ---
 sidebar_position: 200
-id: jest
 tags:
   - testing
   - jest

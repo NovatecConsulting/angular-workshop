@@ -1,6 +1,5 @@
 ---
 sidebar_position: 100
-id: testing-intro
 tags:
   - testing
 ---

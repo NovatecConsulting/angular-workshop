@@ -1,0 +1,8 @@
+{
+  "label": "Self-Study",
+  "position": 900,
+  "link": {
+    "type": "generated-index",
+    "description": "All content of Angular for Self-Study"
+  }
+}
